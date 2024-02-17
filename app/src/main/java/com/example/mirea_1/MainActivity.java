@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         Toast.makeText(this, "onStart", Toast.LENGTH_SHORT).show();
-        Log.v("MIREA_1", "onStart");
+        Log.d("MIREA_1", "onStart");
 
         super.onStart();
     }
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
-        Log.v("MIREA_1", "onResume");
+        Log.i("MIREA_1", "onResume");
 
         super.onResume();
     }
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show();
-        Log.v("MIREA_1", "onPause");
+        Log.w("MIREA_1", "onPause");
 
         super.onPause();
     }
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show();
-        Log.v("MIREA_1", "onStop");
+        Log.e("MIREA_1", "onStop");
 
         super.onStop();
     }
